@@ -1,7 +1,7 @@
 ## Setup:
 1. Use python 3.7.3 using python virtual environment. And install dependencies used in python files.
 2. Install Kafka and start zookeeper and kafka server using [guide](https://kafka.apache.org/quickstart).
-3. Create Kafka topics `media-movie`, `media-tv`, 'cast-movie`, `cast-tv`.
+3. Create Kafka topics `media-movie`, `media-tv`, `cast-movie`, `cast-tv`.
 
 ## Run:
 1. Run `multimedia_consumer.py` which will fetch multimedia ids from kafka topics `media-movie` and `media-tv` topics and produce cast ids from these multimedia in kafka topics `cast-movie` and `cast-tv` using command
